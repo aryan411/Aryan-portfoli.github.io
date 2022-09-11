@@ -1,0 +1,27 @@
+<!--<p>projects works!</p>-->
+
+<div class="main" id="projects" wmAnimate="landing" aos speed="faster">
+  <h1 class="project-title">My Work 📂</h1>
+
+  <div class="card-list">
+    <div *ngFor="let project of projects3" class="wrapper">
+      <div class="card">
+        <div class="card__img"></div>
+        <div class="card__content">
+          <!-- <div class="card__kicker">Ornare Consectetur</div> -->
+          <h3 class="card__title">{{project.name}}</h3>
+          <div class="card__excerpt">
+            <p>{{project.technology}}</p>
+          </div>
+        </div>
+        <div class="card__link">
+          <a [href]="project.url" target="_blank" class="button">View</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-button">
+    <a class="main-button" [href]="githubURL" target="_blank">More Projects</a>
+  </div>
+</div>

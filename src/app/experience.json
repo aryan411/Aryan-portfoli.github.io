@@ -1,0 +1,45 @@
+[
+  {
+    "role": "Software Developer",
+    "company": "Eccentric Engine",
+    "companyURL": "https://eccentricengine.com/",
+    "color": "#000000",
+    "companylogo": "../../../assets/images/Eccentric_Engine.jpg",
+    "date": "May 2021 - Dec 2021",
+    "desc": "Languages/Technologies:- Angular, TypeScript, Java, J2EE, Git, VS Code, Eclipse, Jira",
+    "Project": [
+      [
+        "'Mahindra 700' Car Configuration",
+        "https://auto.mahindra.com/configuration/#/configuration"
+      ],
+      [
+        "'Tata Punch' BookOnline",
+        "https://bookonline.tatamotors.com/punch/#/variant"
+      ],
+      ["'Tata Bookonline App' RazerPay integratiom", ""]
+    ]
+  },
+  {
+    "role": "Software Developer",
+    "company": "Augmented TechLabs",
+    "companyURL":"https://www.augmentedtechlabs.com/",
+    "color": "#001b36",
+    "companylogo": "../../../assets/images/Aug_TechLabs.png",
+    "date": "March 2021 - May 2021",
+    "desc": "Languages/Technologies:- Angular, TypeScript, HTML, CSS, Git, VS Code",
+    "Project": [["Apriworks", ""]]
+  },
+  {
+    "role": "Full-stack Developer Intern",
+    "company": "Quicko",
+    "companyURL":"https://quicko.com/",
+    "color": "#2962ff",
+    "companylogo": "../../../assets/images/Quicko.jpeg",
+    "date": "Jan 2020 - May 2020",
+    "desc": "Languages/Technologies:- Angular, Java, J2EE, spring boot, VS Code, Git, Slack",
+    "Project": [
+      ["Calendar", "https://calendar.quicko.com/"],
+      ["Quicko App", "https://quicko.com/"]
+    ]
+  }
+]

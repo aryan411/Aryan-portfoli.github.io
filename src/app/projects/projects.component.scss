@@ -1,0 +1,147 @@
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+
+.github__chart {
+  margin: 3rem auto;
+  width: 80vw;
+}
+.project-title {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.startup-project-text img {
+  max-width: 100%;
+  height: auto;
+}
+
+.repo-cards-div-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem 1rem;
+}
+.main-button {
+  background-color: #55198b;
+  border: 1px solid #55198b;
+  color: #fff;
+  font-weight: 700;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 13px 22px;
+  //margin-right: 50px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.project-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  .project-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .repo-cards-div-main {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+$g-font-family: "Quicksand", sans-serif;
+$g-line-height: 1.5 !default;
+$g-spacing: $g-line-height * 1em;
+$g-background-color-dark: #444857;
+
+.button {
+  position: relative;
+  display: table;
+  padding: $g-spacing / 2 $g-spacing * 1.4;
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  //margin-top: $g-spacing;
+  text-transform: uppercase;
+  &:hover {
+    background: lighten(#222, 5%);
+  }
+}
+.card-list {
+  display: flex;
+  list-style: none;
+  white-space: nowrap;
+  user-select: none;
+  overflow-x: auto;
+  padding: 0;
+  
+  
+}
+
+.wrapper {
+ 
+  width: 22rem;
+  white-space: normal;
+  margin: 1em 0.3em;
+  min-width: 15em;
+}
+// Card
+.card {
+  margin: 0;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  .card__img {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .card__content {
+    margin: 0;
+    padding: $g-spacing $g-spacing 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    .card__kicker {
+      margin: 0;
+    }
+
+    .card__title {
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+    }
+    .card__excerpt {
+      margin: 0;
+    }
+  }
+
+  .card__link {
+    padding: $g-spacing;
+    margin: 0;
+  }
+}

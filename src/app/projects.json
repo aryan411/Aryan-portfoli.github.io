@@ -1,0 +1,28 @@
+[
+    {
+        "name":"Servay Site",
+        "technology":"Angualr, ExpressJs, MongoDB, HTML, CSS, Typescript, Git",
+        "url":"https://runtimer-ui-demo.herokuapp.com/"
+    },
+    {
+        "name":"'Mahindra 700' Configuration",
+        "technology": "Angualr, HTML, CSS, Typescript, Git",
+        "url": "https://auto.mahindra.com/configuration/#/configuration"
+    },
+    {
+        "name":"'Tata Punch' BookOnline",
+        "technology":"Angualr, HTML, CSS, Typescript, Git",
+        "url":"https://bookonline.tatamotors.com/punch/#/variant"
+    },
+    {
+        "name":"Calendar",
+        "technology":"Java, J2EE, Spring boot, Angular, HTML, CSS, Git, Typescript",
+        "url":"https://calendar.quicko.com/"
+    },
+    {
+        "name":"Quicko app",
+        "technology":"Java, J2EE, Spring boot, Angular, HTML, CSS, Git, Typescript",
+        "url":"https://quicko.com/"
+    }
+    
+]
