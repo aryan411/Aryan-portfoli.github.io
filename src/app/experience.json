@@ -1,5 +1,17 @@
 [
   {
+    "role": "Student Researcher",
+    "company": "WIMTACH",
+    "companyURL": "https://wimtach.centennialcollege.ca/",
+    "color": "#d4df38",
+    "companylogo": "../../../assets/images/wimtach.png",
+    "date": "May 2021 - Dec 2021",
+    "desc": "Languages/Technologies:- ReactJs, TypeScript, NodeJs, Lambda, Git, AWS, DynamoDB, Neptune",
+    "Project": [
+      ["Admin Panel for Gravvity social media", ""]
+    ]
+  },
+  {
     "role": "Software Developer",
     "company": "Eccentric Engine",
     "companyURL": "https://eccentricengine.com/",
